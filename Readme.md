@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/DragDropFromGridExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DragDropFromGridExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/DragDropFromGridExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DragDropFromGridExample/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DragDropFromGridExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DragDropFromGridExample/MainWindow.xaml.vb))
 * [Doctor.cs](./CS/DragDropFromGridExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/DragDropFromGridExample/Model/Doctor.vb))
 * [MedicalAppointment.cs](./CS/DragDropFromGridExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/DragDropFromGridExample/Model/MedicalAppointment.vb))
 * [Patient.cs](./CS/DragDropFromGridExample/Model/Patient.cs) (VB: [Patient.vb](./VB/DragDropFromGridExample/Model/Patient.vb))
