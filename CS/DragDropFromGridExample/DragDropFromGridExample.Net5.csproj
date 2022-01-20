@@ -18,22 +18,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Images" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Scheduler.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Scheduler.CoreDesktop" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Printing" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Scheduling" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.Office2016Colorful" Version="21.1.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Scheduling" Version="21.1.5" />
   </ItemGroup>
 </Project>
