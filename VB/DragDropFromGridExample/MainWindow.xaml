@@ -1,19 +1,18 @@
-<dx:ThemedWindow
-    x:Class="DragDropFromGridExample.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="clr-namespace:DragDropFromGridExample"
-    xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling"
-    xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
-    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
-    Height="600"
-    Width="800"
-    mc:Ignorable="d"
-    DataContext="{dxmvvm:ViewModelSource {x:Type local:MainViewModel}}"
-    Title="MainWindow">
+<dx:ThemedWindow x:Class="DragDropFromGridExample.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:local="clr-namespace:DragDropFromGridExample"
+                 xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling"
+                 xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+                 xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+                 Height="600"
+                 Width="800"
+                 mc:Ignorable="d"
+                 DataContext="{dxmvvm:ViewModelSource {x:Type local:MainViewModel}}"
+                 Title="MainWindow">
 
     <UniformGrid Columns="1">
         <dxsch:SchedulerControl x:Name="scheduler"
@@ -61,6 +60,5 @@
             </dxg:GridControl.View>
         </dxg:GridControl>
     </UniformGrid>
-
 
 </dx:ThemedWindow>
