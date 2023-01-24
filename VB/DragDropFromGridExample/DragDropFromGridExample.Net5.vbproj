@@ -30,6 +30,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Wpf.Scheduling" Version="22.2.3" />
+    <PackageReference Include="DevExpress.Wpf.Scheduling" Version="22.2.4" />
   </ItemGroup>
 </Project>
