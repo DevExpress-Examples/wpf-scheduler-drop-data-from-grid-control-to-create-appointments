@@ -3,21 +3,25 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T545841)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MainWindow.xaml](./CS/DragDropFromGridExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DragDropFromGridExample/MainWindow.xaml))
+# WPF Scheduler - Drop Data from the Grid Control to Create Appointments
+
+This example creates new appointments when a user drops records from the [Data Grid](https://docs.devexpress.com/WPF/6084/controls-and-libraries/data-grid) to the [Scheduler](https://docs.devexpress.com/WPF/114881/controls-and-libraries/scheduler).
+
+![image](https://github.com/DevExpress-Examples/how-to-create-appointments-by-dragging-and-dropping-data-from-the-grid-control-t545841/assets/65009440/9888e875-abfa-4e08-8041-d2140a17eae2)
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/DragDropFromGridExample/MainWindow.xaml)
 * [MainWindow.xaml.cs](./CS/DragDropFromGridExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DragDropFromGridExample/MainWindow.xaml.vb))
-* [Doctor.cs](./CS/DragDropFromGridExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/DragDropFromGridExample/Model/Doctor.vb))
-* [MedicalAppointment.cs](./CS/DragDropFromGridExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/DragDropFromGridExample/Model/MedicalAppointment.vb))
 * [Patient.cs](./CS/DragDropFromGridExample/Model/Patient.cs) (VB: [Patient.vb](./VB/DragDropFromGridExample/Model/Patient.vb))
-* [MainViewModel.cs](./CS/DragDropFromGridExample/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/DragDropFromGridExample/ViewModel/MainViewModel.vb))
-<!-- default file list end -->
-# How to create appointments by dragging and dropping data from the Grid control
 
+## Documentation
 
-This example demonstrates how to to create a new appointment by dragging and dropping data from the data grid.<br><img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-appointments-by-dragging-and-dropping-data-from-the-grid-control-t545841/17.2.3+/media/cc9f498f-a339-4630-9816-bed4ac7fc017.png">
+* [Drag and Drop Appointments](https://docs.devexpress.com/WPF/400539/controls-and-libraries/scheduler/drag-and-drop-appointments)
+* [SchedulerControl.StartAppointmentDragFromOutside](https://docs.devexpress.com/WPF/DevExpress.Xpf.Scheduling.SchedulerControl.StartAppointmentDragFromOutside)
 
-<br/>
+## More Examples
 
-
+* [WPF Scheduler - Handle Appointment Drag/Drop/Resize Operations](https://github.com/DevExpress-Examples/how-to-handle-appointment-drag-drop-resize-operations-t605963)
+* [WPF Scheduler - Create Recurrent Appointments in Code](https://github.com/DevExpress-Examples/wpf-scheduler-create-recurrent-appointments-in-code)
