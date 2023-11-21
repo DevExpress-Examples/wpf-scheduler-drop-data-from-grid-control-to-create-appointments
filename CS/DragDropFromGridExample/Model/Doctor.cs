@@ -1,7 +1,4 @@
-﻿#region #usings
-using DevExpress.Mvvm.POCO;
-using System;
-#endregion #usings
+﻿using DevExpress.Mvvm.POCO;
 
 namespace DragDropFromGridExample {
     public class Doctor {

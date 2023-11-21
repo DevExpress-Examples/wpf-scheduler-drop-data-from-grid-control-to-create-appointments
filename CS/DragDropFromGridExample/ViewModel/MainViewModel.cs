@@ -1,36 +1,24 @@
-﻿#region #usings
-using DevExpress.Mvvm.DataAnnotations;
+﻿using DevExpress.Mvvm.DataAnnotations;
 using DevExpress.Mvvm.POCO;
-using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Grid;
-using DevExpress.Xpf.Scheduling;
-using DevExpress.XtraScheduler;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Data;
-using System.Windows;
-using System.Windows.Input;
-using System.Windows.Media;
-#endregion #usings
 
 namespace DragDropFromGridExample {
     [POCOViewModel]
     public class MainViewModel {
         public virtual ObservableCollection<Doctor> Doctors { get; set; }
         public virtual ObservableCollection<MedicalAppointment> Appointments { get; set; }
-        public virtual ObservableCollection<Patient> Patients { get;  set; }
+        public virtual ObservableCollection<Patient> Patients { get; set; }
 
         public static string[] PatientNames = { "Andrew Glover", "Mark Oliver", "Taylor Riley", "Addison Davis", "Benjamin Hughes", "Lucas Smith",
-                                    "Robert King", "Laura Callahan", "Miguel Simmons", "Isabella Carter", "Andrew Fuller", "Madeleine Russell",
-                                    "Steven Buchanan", "Nancy Davolio", "Michael Suyama", "Margaret Peacock", "Janet Leverling", "Ariana Alexander",
-                                    "Brad Farkus", "Bart Arnaz", "Arnie Schwartz", "Billy Zimmer", "Samantha Piper", "Maggie Boxter",
-                                    "Terry Bradley", "Greta Sims", "Cindy Stanwick", "Marcus Orbison",
-                                    "Sandy Bright", "Ken Samuelson", "Brett Wade", "Wally Hobbs", "Brad Jameson", "Karen Goodson",
-                                    "Morgan Kennedy", "Violet Bailey", "John Heart", "Arthur Miller", "Robert Reagan",
-                                    "Ed Holmes", "Sammy Hill", "Olivia Peyton", "Jim Packard", "Hannah Brookly", "Harv Mudd",
-                                    "Todd Hoffman", "Kevin Carter","Mary Stern", "Robin Cosworth","Jenny Hobbs", "Dallas Lou"};
+                                                "Robert King", "Laura Callahan", "Miguel Simmons", "Isabella Carter", "Andrew Fuller", "Madeleine Russell",
+                                                "Steven Buchanan", "Nancy Davolio", "Michael Suyama", "Margaret Peacock", "Janet Leverling", "Ariana Alexander",
+                                                "Brad Farkus", "Bart Arnaz", "Arnie Schwartz", "Billy Zimmer", "Samantha Piper", "Maggie Boxter",
+                                                "Terry Bradley", "Greta Sims", "Cindy Stanwick", "Marcus Orbison",
+                                                "Sandy Bright", "Ken Samuelson", "Brett Wade", "Wally Hobbs", "Brad Jameson", "Karen Goodson",
+                                                "Morgan Kennedy", "Violet Bailey", "John Heart", "Arthur Miller", "Robert Reagan",
+                                                "Ed Holmes", "Sammy Hill", "Olivia Peyton", "Jim Packard", "Hannah Brookly", "Harv Mudd",
+                                                "Todd Hoffman", "Kevin Carter","Mary Stern", "Robin Cosworth","Jenny Hobbs", "Dallas Lou"};
 
         static Random rnd = new Random();
 
@@ -45,9 +33,9 @@ namespace DragDropFromGridExample {
 
         private void CreateDoctors() {
             Doctors = new ObservableCollection<Doctor>();
-            Doctors.Add(Doctor.Create(Id:1,Name:"Stomatologist"));
-            Doctors.Add(Doctor.Create(Id:2, Name:"Ophthalmologist"));
-            Doctors.Add(Doctor.Create(Id:3, Name:"Surgeon"));
+            Doctors.Add(Doctor.Create(Id: 1, Name: "Stomatologist"));
+            Doctors.Add(Doctor.Create(Id: 2, Name: "Ophthalmologist"));
+            Doctors.Add(Doctor.Create(Id: 3, Name: "Surgeon"));
         }
 
         void CreatePatients() {

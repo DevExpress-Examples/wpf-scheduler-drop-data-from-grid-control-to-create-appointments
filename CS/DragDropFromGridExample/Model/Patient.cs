@@ -1,7 +1,5 @@
-﻿#region #usings
-using DevExpress.Mvvm.POCO;
+﻿using DevExpress.Mvvm.POCO;
 using System;
-#endregion #usings
 
 namespace DragDropFromGridExample {
     public class Patient {
@@ -15,5 +13,8 @@ namespace DragDropFromGridExample {
         public virtual string Name { get; set; }
         public virtual DateTime BirthDate { get; set; }
         public virtual string Phone { get; set; }
+        public override string ToString() {
+            return Name;
+        }
     }
 }
