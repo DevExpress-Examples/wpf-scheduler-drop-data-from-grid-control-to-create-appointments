@@ -1,7 +1,5 @@
-#Region "#usings"
 Imports DevExpress.Mvvm.POCO
 
-#End Region  ' #usings
 Namespace DragDropFromGridExample
 
     Public Class Patient
@@ -20,5 +18,9 @@ Namespace DragDropFromGridExample
         Public Overridable Property BirthDate As Date
 
         Public Overridable Property Phone As String
+
+        Public Overrides Function ToString() As String
+            Return Name
+        End Function
     End Class
 End Namespace

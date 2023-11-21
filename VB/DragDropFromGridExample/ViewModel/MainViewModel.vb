@@ -1,12 +1,8 @@
-#Region "#usings"
 Imports DevExpress.Mvvm.DataAnnotations
 Imports DevExpress.Mvvm.POCO
 Imports System
 Imports System.Collections.ObjectModel
-Imports System.ComponentModel
-Imports System.Windows
 
-#End Region  ' #usings
 Namespace DragDropFromGridExample
 
     <POCOViewModel>
