@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WPF Scheduler - Drop Data from the Grid Control to Create Appointments
+# WPF Scheduler - Drop Data From the Grid Control to Create Appointments
 
 This example creates new appointments when a user drops records from the [Data Grid](https://docs.devexpress.com/WPF/6084/controls-and-libraries/data-grid) to the [Scheduler](https://docs.devexpress.com/WPF/114881/controls-and-libraries/scheduler).
 
