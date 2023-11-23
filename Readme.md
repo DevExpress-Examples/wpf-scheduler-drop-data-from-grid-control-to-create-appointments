@@ -8,7 +8,7 @@
 
 This example creates new appointments when a user drops records from the [Data Grid](https://docs.devexpress.com/WPF/6084/controls-and-libraries/data-grid) to the [Scheduler](https://docs.devexpress.com/WPF/114881/controls-and-libraries/scheduler).
 
-![image](https://github.com/DevExpress-Examples/how-to-create-appointments-by-dragging-and-dropping-data-from-the-grid-control-t545841/assets/65009440/9888e875-abfa-4e08-8041-d2140a17eae2) 
+![image](https://github.com/DevExpress-Examples/how-to-create-appointments-by-dragging-and-dropping-data-from-the-grid-control-t545841/assets/65009440/9888e875-abfa-4e08-8041-d2140a17eae2)
 
 ## Files to Review
 
